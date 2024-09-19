@@ -24,11 +24,11 @@ To install the latest version of the package, simple add a new `implementation` 
 ```kotlin
 dependencies {
     // ...
-    implementation("tech.prismlabs:prismsdk-alter:0.0.3")
+    implementation("tech.prismlabs:prismsdk-alter:1.0.1RC")
 }
 ```
 
-In order to install packages from GitHub you need to specify the repository 
+In order to install packages from GitHub, you need to specify in `settings.gradle` the repository:
 ```kotlin
 repositories {
     //...
